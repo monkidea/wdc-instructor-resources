@@ -107,4 +107,5 @@ class CreateCryptoView(LoginRequiredMixin, FormValidMessageMixin, CreateView):
 
     def get_form_valid_message(self):
         return "Crypto {} created!".format(self.object.name)
+
 ```
