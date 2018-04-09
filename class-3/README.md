@@ -1,27 +1,33 @@
 # Class 3 - Advanced Topics
 
-This class extends the previous marketcap project. Master starts empty as usual, with a few additions to demonstrate without much code:
+This class extends the previous marketcap project. The topics to cover are:
+
 1. Template Inheritance
 2. Basic static file conf
-
-After that, the work will involve:
-
 3. Using Class Based Views
 4. Include a signal to create a Profile object with every new user
 5. Add a favorite coin M2M file to profile and using AJAX to mark coins as favorite
 
-### 1 - Template inheritance
+# 1 - Template inheritance
+
+_(this code is already provided)_
 
 * Show repeated templates in previous project
 * Explain base.html + blocks with index.html
 * Explain `{% include %}` templatetag.
 
-### 2 - Profile and static
-Show the avatars, css and js files in static/, config in settings and how it's loaded from templates. Avatars are downloaded from [collection](https://www.behance.net/gallery/47035405/Free-avatars-flat-icons).
+---
 
-### 3 - Class based views
+# 2 - Profile and static
+**[More Details](/2_profile_static_files.md)**
 
-**[More Details](/class_based_views.py)**
+---
+
+# 3 - Class based views
+
+**[More Details](/class_based_views.md)**
+
+---
 
 # 4 - Signals
 
@@ -50,8 +56,9 @@ def ready(self):
 ```
 3. In `settings.INSTALLED_APPS`, change `'cryptocoins'` for `'cryptocoins.apps.CryptocoinsConfig'`.
 
+---
 
-### 5 - Favorite Coins - Many to Many
+# 5 - Favorite Coins - Many to Many
 
 ##### 1. Many To Many field
 Include a favorite_coins field in the `Profile` model.
