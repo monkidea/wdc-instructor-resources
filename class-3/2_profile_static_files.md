@@ -1,3 +1,5 @@
+Show the avatars, css and js files in static/, config in settings and how it's loaded from templates. Avatars are downloaded from [collection](https://www.behance.net/gallery/47035405/Free-avatars-flat-icons).
+
 ### 1 - Static Files
 
 * Show the static directory included in settings.py
