@@ -19,13 +19,13 @@ _(this code is already provided)_
 ---
 
 # 2 - Profile and static
-**[More Details](/2_profile_static_files.md)**
+**[More Details](https://github.com/rmotr-curriculum/wdc-instructor-resources/blob/master/class-3/2_profile_static_files.md)**
 
 ---
 
 # 3 - Class based views
 
-**[More Details](/class_based_views.md)**
+**[More Details](https://github.com/rmotr-curriculum/wdc-instructor-resources/blob/master/class-3/3_class_based_views.md)**
 
 ---
 
